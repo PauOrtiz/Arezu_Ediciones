@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: ligth-gray;
+}
+
+header {
+	background-image:
+		url(https://dam.muyinteresante.com.mx/wp-content/uploads/2018/11/libros.gif);
+    background-size: cover;
+	height: 250px;
+}
+
+h1,p,footer, a,form,label,h2 {
+	font-family: 'Lexend Mega', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+label,h2 {
+	color: brown;
+}
+
+h1 {
+	padding: 4%;
+	font-size: 4.3rem;
+}
+  @media(max-width:900px){
+    h1{
+     font-size:3.8rem; 
+    } 
+}
+
+section {
+	width: 100%;
+	height: 25%;
+	background-color: orange;
+	border-radius: 8px;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+form {
+	padding: 3%;
+}
+footer {
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+}
+
+.menu ul {
+	display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content: space-between;
+	padding: 1%;;
+	list-style: none;
+}
+
+.menu a {
+	display: block;
+	padding: 0.5em;
+	background-color: White;
+	text-decoration: none;
+	color: Brown; 
+	font-size: 1.1rem;
+	border-radius: 2.1rem 5rem;
+}
+
+.menu a:hover {
+	background-color: gray;
+}
+
+.menu ul li ul {
+	display: none;
+}
+
+.menu ul li a:hover+ul, .menu ul li ul:hover {
+	display: block;
+}
+
